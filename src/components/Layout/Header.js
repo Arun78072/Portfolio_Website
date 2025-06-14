@@ -17,7 +17,6 @@ export default function Header() {
             <Link to='/'>Contacts</Link>
         </div>
         <div className='social_links'>
-        {/* <button>Download Resume </button> */}
             <button><img src='/images/linkedin.png' /></button>
             <button><img src='/images/gmail.png' /></button>
             <button><img src='/images/github.png' /></button>
