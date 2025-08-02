@@ -35,9 +35,9 @@ export default function Works() {
                       <li>...</li>
                       </ul>
        
-                      <p className="card__description">
+                      {/* <p className="card__description">
                         {i.description}
-                      </p>
+                      </p> */}
                     </div>
                     <div className="card__footer">
                     <Link to={`/project/${i.title}`} className="card__button"> View Project</Link>

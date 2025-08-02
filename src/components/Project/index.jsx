@@ -20,20 +20,27 @@ export default function Projects() {
       </ul>
       <h2 className="project_link">
         Project Link :{" "}
-        <Link to={pageData.projectLink} target="_blank">
-        {pageData.projectLink}
-        </Link>
+        {pageData.projectLink ?  <Link to={pageData.projectLink} target="_blank">
+          {pageData.projectLink}
+        </Link> : "URL not disclosed due to privacy agreement."}
+       
       </h2>
-      <p className="project_desc">{pageData.description}</p>
+      <div
+        className="project_desc"
+        dangerouslySetInnerHTML={{ __html: pageData.description }}
+      ></div>
 
       <h3>Snapshot of Projects</h3>
       <ul className="snapshot_images">
         {pageData?.snapshot?.map((i) => {
-          return <li> <img src={i} /></li>;
+          return (
+            <li>
+              {" "}
+              <img src={i} />
+            </li>
+          );
         })}
       </ul>
-
-    
     </div>
   );
 }

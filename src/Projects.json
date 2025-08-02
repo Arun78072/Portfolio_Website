@@ -1,28 +1,42 @@
 [
   {
-    "title": "Project One",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the).",
-    "technologies": ["React", "Node.js", "Express", "MongoDB"],
-    "coverImage": "https://www.wildnatureimages.com/images/xl/070620-014-The-Tetons.jpg",
-    "snapshot":["/projects/apple_clone.png"],
-    "projectLink":"https://totalitycorp.vercel.app/"
+    "title": "NFT Platform",
+    "description": "<h2>NFT Marketplace Platform</h2><p>A full-featured NFT platform where users can create, import, buy, sell, and auction NFTs with a smooth and secure experience.</p><h3>✨ Key Features</h3><ul><li><strong>Mint & Import NFTs:</strong> Users can create new NFTs or import existing ones from other wallets.</li><li><strong>Marketplace:</strong> Explore listed NFTs, filter by categories, and buy/sell using a connected wallet.</li><li><strong>Auctions:</strong> Support for timed bidding with automatic winner selection and smart contract handling.</li><li><strong>Wallet Integration:</strong> Secure login and transactions using MetaMask or other wallets.</li><li><strong>Admin Panel:</strong> Manage users, NFTs, reported items, and platform settings.</li><li><strong>User Dashboard:</strong> Personalized profile with owned, listed, purchased, and favorite NFTs.</li><li><strong>Smart Contracts:</strong> Built with Solidity and deployed on Ethereum-compatible networks.</li></ul><h3>🛠️ Tech Stack</h3><ul><li><strong>Frontend:</strong> React.js / Next.js, Tailwind CSS / styled-components</li><li><strong>Backend:</strong> Node.js, Express, MongoDB</li><li><strong>Blockchain:</strong> Solidity, Web3.js / Ethers.js</li><li><strong>Wallets:</strong> MetaMask integration</li><li><strong>Storage:</strong> IPFS / Pinata for decentralized media</li><li><strong>Authentication:</strong> JWT or Web3 wallet-based login</li></ul>",
+    "technologies": ["React", "Node.js", "Tailwind CSS", "Web3", "MongoDB"],
+    "coverImage": "/projects/NFTappCover.jpg",
+    "snapshot": ["/projects/apple_clone.png"],
+    "projectLink": ""
+  },
+  {
+    "title": "Blog Web Application",
+    "description": "A short description of what Project Two does.",
+    "technologies": ["Next.js", "Tailwind CSS", "Firebase","API","NextAuth"],
+    "coverImage": "/projects/BlogCover.jpg",
+    "snapshot": ["/projects/apple_clone.png"],
+    "projectLink": ""
+  },
+  {
+    "title": "Project Three",
+    "description": "Description of the third project with its key features.",
+    "technologies": ["Vue", "Django", "PostgreSQL"],
+    "coverImage": "/projects/DashboardCover.jpg",
+    "snapshot": ["/projects/apple_clone.png"],
+    "projectLink": "https://totalitycorp.vercel.app/"
+  },
+  {
+    "title": "Quiz Based Platform",
+    "description": "Description of the third project with its key features.",
+    "technologies": ["Vue", "Django", "PostgreSQL"],
+    "coverImage": "/projects/QuizCover.jpg",
+    "snapshot": ["/projects/apple_clone.png"],
+    "projectLink": "https://totalitycorp.vercel.app/"
+  },
+  {
+    "title": "Theme Based Portfolio",
+    "description": "Description of the third project with its key features.",
+    "technologies": ["Vue", "Django", "PostgreSQL"],
+    "coverImage": "/projects/ThemeCover.jpg",
+    "snapshot": ["/projects/apple_clone.png"],
+    "projectLink": "https://totalitycorp.vercel.app/"
   }
-,  
-    {
-      "title": "Project Two",
-      "description": "A short description of what Project Two does.",
-      "technologies": ["Next.js", "Tailwind CSS", "Firebase"],
-      "coverImage": "https://www.wildnatureimages.com/images/xl/070620-014-The-Tetons.jpg",
-      "snapshot":["/projects/apple_clone.png"],
-    "projectLink":"https://totalitycorp.vercel.app/"
-    },
-    {
-      "title": "Project Three",
-      "description": "Description of the third project with its key features.",
-      "technologies": ["Vue", "Django", "PostgreSQL"],
-      "coverImage": "https://www.wildnatureimages.com/images/xl/070620-014-The-Tetons.jpg",
-      "snapshot":["/projects/apple_clone.png"],
-    "projectLink":"https://totalitycorp.vercel.app/"
-    }
-  ]
-  
+]
